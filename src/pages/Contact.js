@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { EmAuth } from "../../utils/helper";
+import { EmAuth } from "../utils/helper";
 
 export default function Contact() {
   const [name, setName] = useState("");
