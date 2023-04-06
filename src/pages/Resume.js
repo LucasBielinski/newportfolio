@@ -1,11 +1,11 @@
-import PDF from "../../images/resumes.pdf";
-import "../styles/Resume.css";
+import PDF from "../images/resumes.pdf";
+import "../components/styles/Resume.css";
 export default function Resume() {
   return (
     <div className="text-center">
       <h2>Resume</h2>
       <p>
-        To see my full resume,{" "}
+        To see my full resume,
         <a href={PDF} download>
           click here
         </a>

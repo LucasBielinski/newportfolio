@@ -1,0 +1,49 @@
+img {
+  height: 400px;
+  width: 800px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  15% {
+    opacity: 10%;
+  }
+  25% {
+    opacity: 15%;
+  }
+  35% {
+    opacity: 25%;
+  }
+  45% {
+    opacity: 35%;
+  }
+  55% {
+    opacity: 45%;
+  }
+  65% {
+    opacity: 55%;
+  }
+  75% {
+    opacity: 65%;
+  }
+  85% {
+    opacity: 75%;
+  }
+  95% {
+    opacity: 85%;
+  }
+  98% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.icons {
+  opacity: 100%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
