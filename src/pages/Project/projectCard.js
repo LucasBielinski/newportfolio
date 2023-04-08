@@ -8,16 +8,9 @@ export default function ProjectCard(props) {
   console.log(project);
   return (
     <div key={project.id}>
-      {/* <a
-        className="image"
-        data-toggle="collapse"
-        href={`#${project.id}`}
-        aria-expanded="false"
-        aria-controls={project.id}
-      > */}
-      <h4>{project.name}</h4>
-      <img className="mt-4" src={project.img} alt="project"></img>
-      {/* </a> */}
+      <h4 className="mt-5">{project.name}</h4>
+      <img className="mt-3" src={project.img} alt="project"></img>
+  
       <div className=" icons text-center" id={project.id}>
         <div>
           <p>
