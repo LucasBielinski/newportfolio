@@ -3,8 +3,8 @@ import ProjectCard from "./projectCard";
 export default function Projects() {
   return (
     <div className="text-center">
-      <h2>Projects</h2>
-      <p>
+      <h2 className="mt-4">Projects</h2>
+      <p className="mt-4">
         The following are projects I have either built myself or contributed to.
       </p>
       {projectData.map((project) => (

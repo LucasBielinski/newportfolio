@@ -1,0 +1,13 @@
+nav {
+  background-color: #1da2d8;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.navbar-nav a {
+  color: #def3f6;
+}
+
+.navbar-nav a:hover {
+  color: #064273;
+}

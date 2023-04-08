@@ -1,10 +1,10 @@
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Link from "../components/Links/ExternalLink";
-
+import "../components/styles/footer.css";
 export default function Footer() {
   return (
-    <footer className="text-center">
-      <p>
+    <footer className="text-center mt-5">
+      <p className="icons2">
         <Link
           goTo={"https://github.com/LucasBielinski"}
           content={<FaGithubSquare size={"50px"} />}

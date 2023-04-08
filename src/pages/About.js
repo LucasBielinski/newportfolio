@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <div>
-      <h2 className="text-center">About Lucas</h2>
-      <p className="text-center">
+      <h2 className="text-center mt-4">About Lucas</h2>
+      <p className="text-center mt-4">
         Lucas Bielinski is a recent bootcamp graduate intrested in web
         development. This portfolio contains some of his many projects. He has
         covere a lot of brand-new territory in his recent bootcamp, learning

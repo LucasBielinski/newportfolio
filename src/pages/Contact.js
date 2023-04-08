@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { EmAuth } from "../utils/helper";
+import "../components/styles/contact.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [wrong, setWrong] = useState("");
+  const [send, setSend] = useState("send");
 
   const handleSwitch = (e) => {
     const { target } = e;
@@ -42,9 +44,10 @@ export default function Contact() {
     setEmail("");
     setMessage("");
     setWrong("");
+    setSend("SENT!");
   };
   return (
-    <div>
+    <div className="contact">
       <h2 className="text-center">Contact Me</h2>
       <p className="text-center">
         If you would like to contact me, please fill out the form below, and I
@@ -53,7 +56,9 @@ export default function Contact() {
 
       <form className="container">
         <div class="form-group">
-          <label for="name">Name</label>
+          <label className="name" for="name">
+            Name
+          </label>
           <input
             type="name"
             className="form-control"
@@ -64,7 +69,9 @@ export default function Contact() {
           />
         </div>
         <div class="form-group">
-          <label for="email">Email</label>
+          <label className="email" for="email">
+            Email
+          </label>
           <input
             type="email"
             class="form-control"
@@ -74,7 +81,7 @@ export default function Contact() {
             placeholder="Enter Email"
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label for="message">Message</label>
           <textarea
             className="form-control"
@@ -91,7 +98,7 @@ export default function Contact() {
           className="btn btn-primary mt-4"
           onClick={formSubmission}
         >
-          Send
+          {send}
         </button>
       </form>
       <h4 className="error text-center">{wrong}</h4>
