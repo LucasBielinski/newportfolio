@@ -9,8 +9,8 @@ export default function ProjectCard(props) {
   return (
     <div key={project.id}>
       <h4 className="mt-5">{project.name}</h4>
-      <img className="mt-3" src={project.img} alt="project"></img>
-  
+      <img className="img-fluid mt-3" src={project.img} alt="project"></img>
+
       <div className=" icons text-center" id={project.id}>
         <div>
           <p>
