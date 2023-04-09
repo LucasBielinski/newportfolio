@@ -1,5 +1,8 @@
+// imports project data
 import { projectData } from "./data";
+// imports project card
 import ProjectCard from "./projectCard";
+//sends project data to project card
 export default function Projects() {
   return (
     <div className="text-center">

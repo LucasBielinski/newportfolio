@@ -1,6 +1,10 @@
+// exports external link
 import ExternalLink from "../../components/Links/ExternalLink";
+// imports style sheet
 import "../../components/styles/projects.css";
+// imports react-icons
 import { FaGithubSquare, FaArrowAltCircleUp } from "react-icons/fa";
+// template for the project page, props pass here
 export default function ProjectCard(props) {
   console.log(props);
   const { project } = props;

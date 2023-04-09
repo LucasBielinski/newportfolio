@@ -1,3 +1,4 @@
+// sets up templates for internal links, props are passed here
 export default function InternalLink(props) {
   console.log(props);
   const { content, goTo, doWhat } = props;

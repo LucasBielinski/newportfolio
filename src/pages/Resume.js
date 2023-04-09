@@ -1,9 +1,13 @@
+// import resume
 import PDF from "../images/resumes.pdf";
+// styles imported
 import "../components/styles/Resume.css";
+// renders resume page
 export default function Resume() {
   return (
     <div className="text-center">
       <h2>Resume</h2>
+      {/* lets pdf to be downloaded */}
       <p>
         To see my full resume,
         <a href={PDF} download>
