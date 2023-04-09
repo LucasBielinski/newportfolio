@@ -11,3 +11,9 @@ nav {
 .navbar-nav a:hover {
   color: #064273;
 }
+
+@media screen and (max-width: 991px) {
+  nav {
+    align-items: center;
+  }
+}

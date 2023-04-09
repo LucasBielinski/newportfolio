@@ -3,8 +3,8 @@ import "../styles/nav.css";
 export default function Nav({ selection, handleSelectionChange }) {
   const links = ["About", "Projects", "Resume", "Contact"];
   return (
-    <nav className="navbar navbar-expand-lg d-flex justify-content-between flex-column flex-md-row">
-      <ul className="navbar-nav d-flex">
+    <nav className="navbar navbar-expand-lg d-flex justify-content-between flex-column flex-md-row justify-content-between allign-items-center">
+      <ul className="navbar-nav">
         {links.map((link) => (
           <InternalLink
             key={link}
