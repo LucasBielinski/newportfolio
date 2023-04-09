@@ -2,6 +2,8 @@ import weather from "../../images/cloudnine.png";
 import bake from "../../images/demo.png";
 import pets from "../../images/perfect.png";
 
+// data for the projects I have completed
+
 export const projectData = [
   {
     name: "Cloud Nine Weather",

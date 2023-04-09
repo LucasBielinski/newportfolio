@@ -1,5 +1,6 @@
 import InternalLink from "./InternalLink";
 import "../styles/nav.css";
+// sets up the nav maps the links, on click it triggers handle selection change, which changes the link to the link clicked, props pass through here.
 export default function Nav({ selection, handleSelectionChange }) {
   const links = ["About", "Projects", "Resume", "Contact"];
   return (

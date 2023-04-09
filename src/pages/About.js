@@ -1,5 +1,8 @@
+// imports profile img
 import profile from "../images/profile.jpg";
+// imports style page
 import "../components/styles/about.css";
+// renders about page
 export default function About() {
   return (
     <div>
@@ -13,6 +16,7 @@ export default function About() {
         Express.js and more. The projects on this page and the page itself is a
         product of those experinces.
       </p>
+      {/* render profile image */}
       <div className="text-center">
         <img className="profile" src={profile} alt="profile"></img>
       </div>
