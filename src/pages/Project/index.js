@@ -11,7 +11,7 @@ export default function Projects() {
         The following are projects I have either built myself or contributed to.
       </p>
       {projectData.map((project) => (
-        <ProjectCard project={project} />
+        <ProjectCard key={project.id} project={project} />
       ))}
     </div>
   );

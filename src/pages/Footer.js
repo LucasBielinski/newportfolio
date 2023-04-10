@@ -12,11 +12,13 @@ export default function Footer() {
       <p className="icons2">
         <Link
           goTo={"https://github.com/LucasBielinski"}
-          content={<FaGithubSquare size={"50px"} />}
+          content={
+            <FaGithubSquare size={"50px"} style={{ margin: "0px 10px" }} />
+          }
         />
         <Link
           goTo={"https://www.linkedin.com/in/lucas-bielinski-224a00141/"}
-          content={<FaLinkedin size={"50px"} />}
+          content={<FaLinkedin size={"50px"} style={{ margin: "0px 10px" }} />}
         />
       </p>
     </footer>

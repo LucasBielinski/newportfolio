@@ -2,8 +2,13 @@
 import { useState } from "react";
 // imports my regex funtion
 import { EmAuth } from "../utils/helper";
+import emailjs from "emailjs-com";
 // imports stylesheet
 import "../components/styles/contact.css";
+
+const { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_USER_ID } =
+  process.env;
+
 // renders functionality for the contact page and the contact page itself
 export default function Contact() {
   // sets default name to none
@@ -50,6 +55,26 @@ export default function Contact() {
       setWrong("please fill in the message box");
       return;
     }
+    console.log(REACT_APP_USER_ID);
+    emailjs
+      .send(
+        `${REACT_APP_SERVICE_ID}`,
+        `${REACT_APP_TEMPLATE_ID}`,
+        {
+          name,
+          email,
+          message,
+        },
+        `${REACT_APP_USER_ID}`
+      )
+      .then(
+        (response) => {
+          console.log("sucssess", response.status);
+        },
+        (err) => {
+          console.log(err);
+        }
+      );
     // if success change values
     setName("");
     setEmail("");
@@ -67,7 +92,7 @@ export default function Contact() {
       </p>
 
       <form className="container">
-        <div class="form-group">
+        <div className="form-group">
           <label className="name" for="name">
             Name
           </label>

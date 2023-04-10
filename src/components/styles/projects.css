@@ -2,7 +2,9 @@ img {
   height: 400px;
   width: 800px;
 }
-
+.icons {
+  margin-top: 10px;
+}
 body {
   background-color: #7fcdff;
 }
