@@ -4,6 +4,10 @@ nav {
   padding-top: 0%;
 }
 
+nav ul {
+  width: 100%;
+}
+
 .navbar-nav a {
   color: #def3f6;
 }

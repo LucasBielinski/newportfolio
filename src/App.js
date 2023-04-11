@@ -14,10 +14,12 @@ import Header from "./pages/Header";
 import Projects from "./pages/Project/index";
 // imports resume
 import Resume from "./pages/Resume";
+
 const App = () => {
   // sets selection
   const [selection, setSelection] = useState("About");
-// if selection = page selected, render that page
+
+  // if selection = page selected, render that page
   const pageSelect = () => {
     if (selection === "About") {
       return <About />;
@@ -30,7 +32,7 @@ const App = () => {
     }
     return <Resume />;
   };
-// sets selcetion to what is in the handle selection change
+  // sets selcetion to what is in the handle selection change
   const handleSelectionChange = (selected) => {
     setSelection(selected);
   };
@@ -38,12 +40,10 @@ const App = () => {
   return (
     <div>
       {/* render headers */}
+
       <Header />
       {/* passes props to nav */}
-      <Nav
-        selection={selection}
-        handleSelectionChange={handleSelectionChange}
-      />
+      <Nav handleSelectionChange={handleSelectionChange} />
       {/* renders selected page */}
       {pageSelect()}
       {/* render footer */}

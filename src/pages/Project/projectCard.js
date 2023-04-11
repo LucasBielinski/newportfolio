@@ -11,7 +11,7 @@ export default function ProjectCard(props) {
   console.log("extracted project");
   console.log(project);
   return (
-    <div key={project.id}>
+    <div>
       <h4 className="mt-5">{project.name}</h4>
       <img className="img-fluid mt-3" src={project.img} alt="project"></img>
 
@@ -20,11 +20,18 @@ export default function ProjectCard(props) {
           <p>
             <ExternalLink
               goTo={project.git}
-              content={<FaGithubSquare size={"50px"} />}
+              content={
+                <FaGithubSquare size={"50px"} style={{ margin: "0px 10px" }} />
+              }
             />
             <ExternalLink
               goTo={project.link}
-              content={<FaArrowAltCircleUp size={"50px"} />}
+              content={
+                <FaArrowAltCircleUp
+                  size={"50px"}
+                  style={{ margin: "0px 10px" }}
+                />
+              }
             />
           </p>
         </div>
