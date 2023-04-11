@@ -9,8 +9,8 @@ export default function Resume() {
       <h2>Resume</h2>
       {/* lets pdf to be downloaded */}
       <p>
-        To see my full resume,
-        <a href={PDF} download>
+        To see my full resume {""}
+        <a className="resumelink" href={PDF} download>
           click here
         </a>
       </p>

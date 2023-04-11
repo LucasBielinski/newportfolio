@@ -9,3 +9,7 @@ p a {
 ul {
   padding: 0px;
 }
+
+.resumelink {
+  font-style: italic;
+}
