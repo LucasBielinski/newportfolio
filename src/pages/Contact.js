@@ -84,7 +84,7 @@ export default function Contact() {
   };
   return (
     // renders contact page
-    <div className="contact">
+    <div className="contact mt-4">
       <h2 className="text-center">Contact Me</h2>
       <p className="text-center">
         If you would like to contact me, please fill out the form below, and I

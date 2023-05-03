@@ -1,11 +1,11 @@
 // import resume
-import PDF from "../images/resumes.pdf";
+import PDF from "../images/Lucas_Bielinski_Resume.pdf";
 // styles imported
 import "../components/styles/Resume.css";
 // renders resume page
 export default function Resume() {
   return (
-    <div className="text-center">
+    <div className="text-center mt-4">
       <h2>Resume</h2>
       {/* lets pdf to be downloaded */}
       <p>
