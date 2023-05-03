@@ -12,6 +12,8 @@ N/A
 
 Click the links in the navagation to view diffrent pages. You can click the Github icon to see my Github and the LinkedIn icon to see my linked in. On the projects page, you can click the Github icon to see the project on Github. Clicking the arrow icon will send you to the project website. On the contact page, you can enter in your name, email and message and submit your info. If you fill out the form incorrectly, you will recieve an error.
 
+![image of project](./src/images/projectimg.png)
+
 ## Credits
 
 N/A
