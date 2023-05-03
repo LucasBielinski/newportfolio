@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/newportfolio/static/css/main.db529cfc.css",
-    "main.js": "/newportfolio/static/js/main.a16f463a.js",
+    "main.css": "/newportfolio/static/css/main.4fb09605.css",
+    "main.js": "/newportfolio/static/js/main.62b5bc08.js",
     "static/media/demo.png": "/newportfolio/static/media/demo.39462242a7dc58adec61.png",
     "static/media/cloudnine.png": "/newportfolio/static/media/cloudnine.1209ee82656d75d7bd60.png",
     "static/media/perfect.png": "/newportfolio/static/media/perfect.1ec372d27a1554728cb4.png",
-    "static/media/resumes.pdf": "/newportfolio/static/media/resumes.4e585489546317bf41ee.pdf",
+    "static/media/skate.png": "/newportfolio/static/media/skate.478137871f6de322168a.png",
+    "static/media/site.png": "/newportfolio/static/media/site.0ad8b9f100172cafe77a.png",
+    "static/media/Lucas_Bielinski_Resume.pdf": "/newportfolio/static/media/Lucas_Bielinski_Resume.57b656a0d987e310676e.pdf",
     "static/media/profile.jpg": "/newportfolio/static/media/profile.7118a246de1e689f870b.jpg",
     "index.html": "/newportfolio/index.html",
-    "main.db529cfc.css.map": "/newportfolio/static/css/main.db529cfc.css.map",
-    "main.a16f463a.js.map": "/newportfolio/static/js/main.a16f463a.js.map"
+    "main.4fb09605.css.map": "/newportfolio/static/css/main.4fb09605.css.map",
+    "main.62b5bc08.js.map": "/newportfolio/static/js/main.62b5bc08.js.map"
   },
   "entrypoints": [
-    "static/css/main.db529cfc.css",
-    "static/js/main.a16f463a.js"
+    "static/css/main.4fb09605.css",
+    "static/js/main.62b5bc08.js"
   ]
 }
