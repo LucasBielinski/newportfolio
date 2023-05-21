@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newportfolio/static/css/main.4fb09605.css",
-    "main.js": "/newportfolio/static/js/main.338a1183.js",
+    "main.css": "/newportfolio/static/css/main.46948cb7.css",
+    "main.js": "/newportfolio/static/js/main.01c53019.js",
     "static/media/demo.png": "/newportfolio/static/media/demo.39462242a7dc58adec61.png",
     "static/media/cloudnine.png": "/newportfolio/static/media/cloudnine.1209ee82656d75d7bd60.png",
     "static/media/perfect.png": "/newportfolio/static/media/perfect.1ec372d27a1554728cb4.png",
@@ -10,11 +10,11 @@
     "static/media/Lucasnew.jpg": "/newportfolio/static/media/Lucasnew.cc4dd060156941af839d.jpg",
     "static/media/Lucas_Bielinski_Resume.pdf": "/newportfolio/static/media/Lucas_Bielinski_Resume.57b656a0d987e310676e.pdf",
     "index.html": "/newportfolio/index.html",
-    "main.4fb09605.css.map": "/newportfolio/static/css/main.4fb09605.css.map",
-    "main.338a1183.js.map": "/newportfolio/static/js/main.338a1183.js.map"
+    "main.46948cb7.css.map": "/newportfolio/static/css/main.46948cb7.css.map",
+    "main.01c53019.js.map": "/newportfolio/static/js/main.01c53019.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb09605.css",
-    "static/js/main.338a1183.js"
+    "static/css/main.46948cb7.css",
+    "static/js/main.01c53019.js"
   ]
 }
