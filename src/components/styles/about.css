@@ -3,3 +3,7 @@
   height: 200px;
   border-radius: 50%;
 }
+
+body {
+  font-family: "Crimson Text", serif;
+}

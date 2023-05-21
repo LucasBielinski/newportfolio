@@ -1,8 +1,10 @@
 header h1 {
   margin-left: 10px;
+  margin-top: 8px;
   color: #def3f6;
 }
 header {
+  padding-top: 15px;
   background: linear-gradient(50deg, #7fcdff, #064273, #76b6c4);
   background-size: 300% 300%;
   animation: animate 20s ease infinite;

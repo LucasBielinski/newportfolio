@@ -6,8 +6,8 @@ import "../components/styles/about.css";
 export default function About() {
   return (
     <div>
-      <h2 className="text-center mt-4">About Lucas</h2>
-      <p className="text-center mt-4">
+      <h2 className="abouth text-center mt-4">About Lucas</h2>
+      <p className="aboutp container text-center mt-4">
         Lucas Bielinski is a recent bootcamp graduate interested in web
         development. This portfolio contains some of his many projects. He has
         covered a lot of brand-new territory in his recent bootcamp, learning
