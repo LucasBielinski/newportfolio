@@ -10,8 +10,8 @@ export const projectData = [
   {
     name: "Cloud Nine Weather",
     img: weather,
-    link: "https://lucasbielinski.github.io/bielinskiweather/",
-    git: "https://github.com/LucasBielinski/bielinskiweather",
+    link: "https://lucasbielinski.github.io/Cloud-Nine-Weather/",
+    git: "https://github.com/LucasBielinski/Cloud-Nine-Weather",
     id: "cloud",
   },
   {
@@ -38,8 +38,8 @@ export const projectData = [
   {
     name: "Password Generator",
     img: password,
-    link: "https://lucasbielinski.github.io/password-generator/",
-    git: "https://github.com/LucasBielinski/password-generator",
+    link: "https://lucasbielinski.github.io/Lucas-Password-Generator/",
+    git: "https://github.com/LucasBielinski/Lucas-Password-Generator",
     id: "pass",
   },
 ];
