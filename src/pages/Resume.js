@@ -1,5 +1,5 @@
 // import resume
-import PDF from "../images/Lucas_Bielinski_Resume.pdf";
+import PDF from "../images/PortfolioRes.pdf";
 // styles imported
 import "../components/styles/Resume.css";
 // renders resume page
