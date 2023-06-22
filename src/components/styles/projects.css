@@ -6,9 +6,26 @@ img {
   margin-top: 10px;
 }
 body {
-  background-color: #7fcdff;
+  /* background-color: #7fcdff; */
+  background: linear-gradient(50deg, #7fcdff, #064273, #76b6c4);
+  background-attachment: fixed;
+  background-size: 300% 300%;
+  animation: animate 20s ease infinite;
+  width: 100vw;
+  height: 100vh;
 }
 
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 /* 
 @media screen and (max-width: 800px) {
   img {

@@ -14,6 +14,7 @@ nav ul {
 
 .navbar-nav a:hover {
   color: #064273;
+  text-shadow: 5px 5px 8px #730633;
 }
 
 @media screen and (max-width: 991px) {
