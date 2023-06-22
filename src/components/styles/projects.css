@@ -5,14 +5,16 @@ img {
 .icons {
   margin-top: 10px;
 }
+.icons3 a:hover {
+  color: red;
+}
+
 body {
   /* background-color: #7fcdff; */
   background: linear-gradient(50deg, #7fcdff, #064273, #76b6c4);
   background-attachment: fixed;
   background-size: 300% 300%;
   animation: animate 20s ease infinite;
-  width: 100vw;
-  height: 100vh;
 }
 
 @keyframes animate {

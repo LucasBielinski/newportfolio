@@ -46,3 +46,6 @@ img:hover {
   animation-name: fadeIn;
   animation-duration: 0.75s;
 }
+.icons2 a:hover {
+  color: red;
+}

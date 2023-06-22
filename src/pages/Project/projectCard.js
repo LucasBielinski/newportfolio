@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
         <div>
           <p>Role: {project.role}</p>
           <p>Technologies: {project.tech}</p>
-          <p>
+          <p className="icons3">
             <ExternalLink
               goTo={project.git}
               content={

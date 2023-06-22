@@ -20,7 +20,7 @@ export default function Contact() {
   // sets default error msg to none
   const [wrong, setWrong] = useState("");
   // sets button text to send
-  const [send, setSend] = useState("send");
+  const [send, setSend] = useState("Send");
   // handles form switch
   const handleSwitch = (e) => {
     const { target } = e;
@@ -130,7 +130,7 @@ export default function Contact() {
             name="message"
             onChange={handleSwitch}
             type="message"
-            placeholder="please leave a message"
+            placeholder="Please leave a message"
             rows="3"
           ></textarea>
         </div>
