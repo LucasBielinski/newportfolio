@@ -1,5 +1,5 @@
 // imports profile img
-import profile from "../images/Lucasnew.jpg";
+import profile from "../images/me3.jpg";
 // imports style page
 import "../components/styles/about.css";
 // renders about page
