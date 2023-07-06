@@ -5,7 +5,7 @@ header h1 {
 }
 header {
   padding-top: 15px;
-  background: linear-gradient(50deg, #7fcdff, #064273, #76b6c4);
+  background: linear-gradient(90deg, #7fcdff, #064273, #76b6c4);
   background-size: 300% 300%;
   animation: animate 20s ease infinite;
   padding-bottom: 30px;

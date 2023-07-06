@@ -9,27 +9,6 @@ img {
   color: red;
 }
 
-body {
-  /* background-color: #7fcdff; */
-  background: linear-gradient(50deg, #7fcdff, #064273, #76b6c4);
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  background-size: 300% 300%;
-  transform: translate3d(0, 0, 0);
-  animation: animate 20s ease infinite;
-}
-
-@keyframes animate {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 /* 
 @media screen and (max-width: 800px) {
   img {

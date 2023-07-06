@@ -5,7 +5,7 @@ import ProjectCard from "./projectCard";
 //sends project data to project card
 export default function Projects() {
   return (
-    <div className="text-center">
+    <div className="projects text-center">
       <h2 className="mt-4">Projects</h2>
       <p className="mt-4">
         The following are projects I have either built myself or contributed to.

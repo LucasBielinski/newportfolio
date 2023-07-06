@@ -5,6 +5,25 @@
 }
 
 body {
+  background: linear-gradient(90deg, #7fcdf7, #064273, #76b6c4);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  transform: translate3d(0, 0, 0);
+  animation: animate 20s ease infinite;
+  background-color: #064273;
   font-family: "Crimson Text", serif;
   color: white;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
