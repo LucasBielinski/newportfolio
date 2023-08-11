@@ -38,7 +38,7 @@ export const projectData = [
     name: "Skate Spot",
     img: skate,
     role: "JavaScript Functionality, Back End Javascript, Styling",
-    tech: "React.js, JavaScript, CSS, MongoDB, GraphQl, Semantic UI, RESTful API",
+    tech: "React.js, React Router, JavaScript, CSS, MongoDB, GraphQl, Semantic UI",
     link: "https://skatespot-17f1fc3fbb2d.herokuapp.com/",
     git: "https://github.com/ReedHMartin/SkateSpotter",
     id: "skate",

@@ -3,7 +3,7 @@ import ExternalLink from "../../components/Links/ExternalLink";
 // imports style sheet
 import "../../components/styles/projects.css";
 // imports react-icons
-import { FaGithubSquare, FaArrowAltCircleUp } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 // template for the project page, props pass here
 export default function ProjectCard(props) {
   console.log(props);
@@ -13,7 +13,12 @@ export default function ProjectCard(props) {
   return (
     <div>
       <h4 className="mt-5">{project.name}</h4>
-      <img className="img-fluid mt-3" src={project.img} alt="project"></img>
+      <ExternalLink
+        goTo={project.link}
+        content={
+          <img className="img-fluid mt-3" src={project.img} alt="project"></img>
+        }
+      />
 
       <div className=" icons text-center" id={project.id}>
         <div>
@@ -26,7 +31,7 @@ export default function ProjectCard(props) {
                 <FaGithubSquare size={"50px"} style={{ margin: "0px 10px" }} />
               }
             />
-            <ExternalLink
+            {/* <ExternalLink
               goTo={project.link}
               content={
                 <FaArrowAltCircleUp
@@ -34,7 +39,7 @@ export default function ProjectCard(props) {
                   style={{ margin: "0px 10px" }}
                 />
               }
-            />
+            /> */}
           </p>
         </div>
       </div>
