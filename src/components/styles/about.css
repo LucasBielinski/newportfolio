@@ -4,6 +4,11 @@
   border-radius: 50%;
 }
 
+.profile:hover {
+  box-shadow: 0px 0px 0px yellow;
+  animation: circle 5s ease infinite;
+}
+
 body {
   background: linear-gradient(90deg, #7fcdf7, #064273, #76b6c4);
   /* background-attachment: fixed; */
@@ -25,5 +30,17 @@ body {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes circle {
+  0% {
+    box-shadow: 0px 0px 10px yellow;
+  }
+  50% {
+    box-shadow: 0px 0px 80px yellow;
+  }
+  100% {
+    box-shadow: 0px 0px 10px yellow;
   }
 }

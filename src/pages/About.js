@@ -2,6 +2,7 @@
 import profile from "../images/me3.jpg";
 // imports style page
 import "../components/styles/about.css";
+import ExternalLink from "../components/Links/ExternalLink";
 // renders about page
 export default function About() {
   return (
@@ -17,7 +18,10 @@ export default function About() {
       </p>
       {/* render profile image */}
       <div className="text-center">
-        <img className="profile" src={profile} alt="profile"></img>
+        <ExternalLink
+          goTo={"https://www.linkedin.com/in/lucas-bielinski-224a00141/"}
+          content={<img className="profile" src={profile} alt="profile"></img>}
+        />
       </div>
     </div>
   );
