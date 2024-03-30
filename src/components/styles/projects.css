@@ -2,6 +2,12 @@ img {
   height: 400px;
   width: 800px;
 }
+
+.grey {
+  height: 400px;
+  width: 800px;
+  background-color: #064273;
+}
 .icons {
   margin-top: 10px;
 }
