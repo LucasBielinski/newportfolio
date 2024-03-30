@@ -55,7 +55,7 @@ export default function Contact() {
       setWrong("please fill in the message box");
       return;
     }
-    console.log(REACT_APP_USER_ID);
+    // console.log(REACT_APP_USER_ID);
     emailjs
       .send(
         `${REACT_APP_SERVICE_ID}`,
